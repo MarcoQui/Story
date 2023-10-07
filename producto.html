@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@700&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html">
+            <img class="header__logo" src="./imagenes/img/logo.png" alt="logo">
+        </a>
+        
+    </header>
+    <nav class="navigation">
+        <a class="navigation__link" href="./index.html">TIENDA</a>
+        <a class="navigation__link navigation__link--active" href="#">NOSOTROS</a>
+    </nav>
+    <main class="container">
+        <h1>React JS</h1>
+        <div class="t-shirt">
+            <img class="t-shirt__image" src="./imagenes/img/3.jpg" alt="">
+            <div class="t-shirt__content">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing
+                     and typesetting industry. Lorem Ipsum has been
+                     the industry's standard dummy text ever since
+                     the 1500s.
+                </p>
+                <form class="form" action="">
+                    <select class="form__field" name="size" id="">
+                        <option disabled selected> --Seleccionar tall--</option>
+                        <option value="S">Chica</option>
+                        <option value="M">Mediana</option>
+                        <option value="L">Grande</option>
+                    </select>
+                    <input class="form__field" type="number" placeholder="Cantidad" min="1" step="1">
+                    <input class="form__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">Front End Store - Todos los derechos reseravdos 2023.</p>
+    </footer>
+</body>
+</html>
